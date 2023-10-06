@@ -1,0 +1,5 @@
+model\CtImageIO.class
+view\CtFrame.class
+view\CtMenuBar.class
+control\CtApplication.class
+view\CtConfigPanel.class

@@ -1,0 +1,17 @@
+name	Michael Schöll
+birth	29.06.1998
+#	Test comment in Row 3
+weight	103
+height	204
+#	Test comment in Row 6
+IZ	100459ASM98
+image	null
+DATA
+3
+2
+2
+1 2 3
+0 67 0
+
+1 2 3
+0 67 0

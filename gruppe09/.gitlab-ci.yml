@@ -1,0 +1,30 @@
+image: registry.it.hs-heilbronn.de/it/development/git-runners/itadmin-openjdk17_repo-hhnit:latest
+
+stages:
+  - echo
+  - compile
+  - test
+  - package
+
+echo_job:
+  stage: echo
+  script:
+    - echo "Shared runners are working fine"
+
+compile_job:
+  stage: compile
+  script:
+    - "mvn compile"
+
+test_job:
+  stage: test
+  script:
+    - "mvn test"
+
+package_job:
+  stage: package
+  script:
+    - "mvn package"
+  artifacts:
+    paths:
+      - Runtime/target/*.jar
